@@ -75,6 +75,7 @@ module "example" {
   max_size                  = 1
   desired_capacity          = 0
   wait_for_capacity_timeout = 0
+  instance_type             = "t2.micro"
 
   tags = [
     {
