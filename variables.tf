@@ -329,7 +329,7 @@ variable "create_scaling_policy" {
 variable "scaling_policy_name" {
   description = "The name used by scaling policy"
   type        = string
-  default     = null
+  default     = "PredefinedTargetTracking"
 }
 
 variable "scaling_adjustment_type" {
